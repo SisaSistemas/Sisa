@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0c4ce3a48ba6403086d103d5ba32248b" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="Model.DateDimension" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Productos" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblBoletin" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblCajaChica" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblCalendario" Width="1.5" PointX="4.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblCategoria" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblChat" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblClienteContacto" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblClientes" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblComentariosCotizacion" Width="1.5" PointX="8.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblComentariosProyecto" Width="1.5" PointX="6.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblControlFacturas" Width="1.5" PointX="8.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblCotizaciones" Width="1.5" PointX="2.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblCotizacionesDet" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblCotizacionNew" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblDatosEmpresa" Width="1.5" PointX="10.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblDocDisenosMecanico" Width="1.5" PointX="4.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblDocMasterCamMecanico" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblDocProyectos" Width="1.5" PointX="12.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblEficiencias" Width="1.5" PointX="12.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblEmpresas" Width="1.5" PointX="12.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblFacturasXML" Width="1.5" PointX="4.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblFallas" Width="1.5" PointX="6.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblFolioCotizacion" Width="1.5" PointX="14.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblFolioOrdenCompra" Width="1.5" PointX="8.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblFolioReq" Width="1.5" PointX="14.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblFolioRFQ" Width="1.5" PointX="10.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblGastos" Width="1.5" PointX="12.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblGPS" Width="1.5" PointX="14.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblInventario" Width="1.5" PointX="0.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblInventarioDet" Width="1.5" PointX="16.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblInvHerramientas" Width="1.5" PointX="16.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblInvHerramientasDet" Width="1.5" PointX="16.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblLiderProyecto" Width="1.5" PointX="14.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblListaPendientes" Width="1.5" PointX="16.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblMateriales" Width="1.5" PointX="2.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblMaterialImagen" Width="1.5" PointX="4.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblMatrizMecanico" Width="1.5" PointX="6.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblMenu" Width="1.5" PointX="8.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblMonedas" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblNotaAclaratoria" Width="1.5" PointX="18.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblOrdenCompra" Width="1.5" PointX="18.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblOrdenCompraComentarios" Width="1.5" PointX="10.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblOrdenCompraDet" Width="1.5" PointX="18.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblOrdenCompraInsumos" Width="1.5" PointX="12.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblOrdenCompraNota" Width="1.5" PointX="14.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblPermisos" Width="1.5" PointX="16.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblProveedores" Width="1.5" PointX="18.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblProveedoresContactos" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblProveedorMaterial" Width="1.5" PointX="20.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblProyectoRequerimiento" Width="1.5" PointX="20.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblProyectosGastos" Width="1.5" PointX="20.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblProyectoTasks" Width="1.5" PointX="2.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblProyectoTasksComentarios" Width="1.5" PointX="8.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblRecuperaciones" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblReqDet" Width="1.5" PointX="22.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblReqEnc" Width="1.5" PointX="22.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblRequisicion" Width="1.5" PointX="22.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblRFQ" Width="1.5" PointX="14.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblRFQDet" Width="1.5" PointX="22.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblRfqSeguimiento" Width="1.5" PointX="4.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblRfqVentas" Width="1.5" PointX="22.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblServicioComputo" Width="1.5" PointX="6.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblServiciosComputo" Width="1.5" PointX="8.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblSolicitudesAprobacion" Width="1.5" PointX="24.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblSubMenu" Width="1.5" PointX="24.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblSucursales" Width="1.5" PointX="24.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblTeamProject" Width="1.5" PointX="16.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblUnidadMedida" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblUsuarios" Width="1.5" PointX="0.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblVehiculos" Width="1.5" PointX="2.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblVehiculoServicio" Width="1.5" PointX="26.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblVehiculoServicioItem" Width="1.5" PointX="26.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblViaticos" Width="1.5" PointX="10.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblViaticosDet" Width="1.5" PointX="26.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblViaticosDetImagenes" Width="1.5" PointX="26.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Utilidad" Width="1.5" PointX="26.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.UtilidadPastel" Width="1.5" PointX="26.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblHabilidades" Width="1.5" PointX="18.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblOrdenTrabajo" Width="1.5" PointX="24.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblProyectosBK" Width="1.5" PointX="26.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblProyectoTasksBK" Width="1.5" PointX="28.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblTimmingProyecto" Width="1.5" PointX="4.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblUsuariosBK" Width="1.5" PointX="28.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tblEficienciasDesglose" Width="1.5" PointX="13.375" PointY="28.75" />
+        <EntityTypeShape EntityType="Model.tblRolesUsuarios" Width="1.5" PointX="15.375" PointY="28.75" />
+        <EntityTypeShape EntityType="Model.tblViaticosDetCantEntregada" Width="1.5" PointX="21.375" PointY="28.75" />
+        <EntityTypeShape EntityType="Model.tblOrdenCompraArchivos" Width="1.5" PointX="7.375" PointY="29.75" />
+        <EntityTypeShape EntityType="Model.tblHorasHombre" Width="1.5" PointX="16.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.tblSavings" Width="1.5" PointX="29.375" PointY="10.75" />
+        <EntityTypeShape EntityType="Model.tblFacturasModiGlobal" Width="1.5" PointX="29.375" PointY="15.75" />
+        <EntityTypeShape EntityType="Model.tblProyectos" Width="1.5" PointX="20.75" PointY="11.625" />
+        <EntityTypeShape EntityType="Model.tblArea" Width="1.5" PointX="29.375" PointY="18.75" />
+        <EntityTypeShape EntityType="Model.tblArchivosIngenieria_CCM" Width="1.5" PointX="29.375" PointY="21.75" />
+        <EntityTypeShape EntityType="Model.tblSolicitudCotizacion_CCM" Width="1.5" PointX="29.375" PointY="25.75" />
+        <EntityTypeShape EntityType="Model.tblFolioSolicitudCotizacion_CCM" Width="1.5" PointX="9.375" PointY="30.75" />
+        <EntityTypeShape EntityType="Model.tblUsuariosCCM" Width="1.5" PointX="17.375" PointY="30.75" />
+        <EntityTypeShape EntityType="Model.tblFolioPaquete_CCM" Width="1.5" PointX="29.375" PointY="30.75" />
+        <EntityTypeShape EntityType="Model.tblPaqueteDet_CCM" Width="1.5" PointX="31.375" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.tblPaqueteEnc_CCM" Width="1.5" PointX="31.375" PointY="3.75" />
+        <EntityTypeShape EntityType="Model.tblBiddingsArchivos" Width="1.5" PointX="31.375" PointY="7.75" />
+        <EntityTypeShape EntityType="Model.tblBiddingsDet" Width="1.5" PointX="31.375" PointY="11.75" />
+        <EntityTypeShape EntityType="Model.tblBiddingsEnc" Width="1.5" PointX="31.375" PointY="15.75" />
+        <EntityTypeShape EntityType="Model.tblBiddingsFolio" Width="1.5" PointX="31.375" PointY="19.75" />
+        <EntityTypeShape EntityType="Model.tblRolesContactos" Width="1.5" PointX="31.375" PointY="22.75" />
+        <EntityTypeShape EntityType="Model.tblRolesProveedores" Width="1.5" PointX="23.375" PointY="31.75" />
+        <EntityTypeShape EntityType="Model.tblCalProveedor" Width="1.5" PointX="31.375" PointY="28.75" />
+        <EntityTypeShape EntityType="Model.tblBiddingComentario" Width="1.5" PointX="31.375" PointY="31.75" />
+        <EntityTypeShape EntityType="Model.tblProyectoTaskImagen" Width="1.5" PointX="0.75" PointY="32.75" />
+        <EntityTypeShape EntityType="Model.tblFacturasEmitidas" Width="1.5" PointX="11.375" PointY="32.75" />
+        <EntityTypeShape EntityType="Model.tblPagosFacturasOrdenes" Width="1.5" PointX="19.375" PointY="32.75" />
+        <EntityTypeShape EntityType="Model.tblOrdenCompraCambios" Width="1.5" PointX="33.375" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.tblPagosMultiples" Width="1.5" PointX="33.375" PointY="3.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,170 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SitioProveedores.master.cs" Inherits="SisaDev.SitioProveedores" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sisa- Sistemas Automatizados">
+    <meta name="author" content="SISA">
+    <link rel="shortcut icon" type="image/x-icon" href="~/img/logo.ico" />
+
+    <title>Sisa- Sistemas Automatizados</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <%--    <link href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css" rel="stylesheet" type="text/css" />--%>
+    <!-- bootstrap theme -->
+    <link href="~/css/bootstrap-theme.css" rel="stylesheet" type="text/css" />
+    <!--external css-->
+    <!-- font icon -->
+    <link href="~/css/elegant-icons-style.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/fontawesome-all.css" rel="stylesheet" type="text/css" />
+    <!-- Custom styles -->
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/style-responsive.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/bootstrap-select.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/bootstrap-select.css" rel="stylesheet" type="text/css" />
+    <%--<link href="~/css/custom.min.css" rel="stylesheet" />--%>
+    <%--<link href="~/css/bootstrap-table.css" rel="stylesheet" />--%>
+
+    <link href="~/Plugins/bootstrap-table/bootstrap-table.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <!-- container section start -->
+    <section id="container" class="">
+
+        <header class="header dark-bg">
+            <div class="toggle-nav">
+                <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="icon_menu"></i></div>
+            </div>
+
+            <!--logo start-->
+            <asp:HyperLink ID="home" runat="server" NavigateUrl="~/Inicio.aspx">
+                <asp:Image runat="server" ID="LogoI"
+                    ImageUrl="~/img/logo.png" Height="50" />
+            </asp:HyperLink>
+            <%--<a href="~/Inicio.aspx" class="logo">
+          <%--<img src="img/logo.png" height="50"/>
+          
+
+      </a>--%>
+            <!--logo end-->
+
+
+
+            <div class="top-nav notification-row">
+                <!-- notificatoin dropdown start-->
+                <ul class="nav pull-right top-menu">
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="profile-ava">
+                                <img src="" class="fotoPerfil" height="34" width="34">
+                                <%-- <asp:image runat="server" id="fotoPerfil"
+  ImageUrl="~/img/avatar1_small.jpg"/>--%>
+                            </span>
+                            <span class="username"><%= usuario.NombreComercial %></span>
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu extended logout">
+                            <div class="log-arrow-up"></div>
+
+                            <%--<li>
+                <a href="#"><i class="icon_mail_alt"></i> My Inbox</a>
+              </li>
+              <li>
+                <a href="#"><i class="icon_clock_alt"></i> Timeline</a>
+              </li>
+              <li>
+                <a href="#"><i class="icon_chat_alt"></i> Chats</a>
+              </li>--%>
+                            <li>
+                                <asp:HyperLink ID="LinkCerrar" runat="server" NavigateUrl="~/Biddings/CerrarSesion.aspx" Text="">Cerrar sesión</asp:HyperLink>
+                                <%--<a href="Account/Salir.aspx">Cerrar sesión</a>--%>
+                            </li>
+                            <%--<li>
+                <a href="documentation.html"><i class="icon_key_alt"></i> Documentation</a>
+              </li>
+              <li>
+                <a href="documentation.html"><i class="icon_key_alt"></i> Documentation</a>
+              </li>--%>
+                        </ul>
+                    </li>
+                    <!-- user login dropdown end -->
+                </ul>
+                <!-- notificatoin dropdown end-->
+            </div>
+        </header>
+        <!--header end-->
+
+        <!--sidebar start-->
+        <aside>
+            <div id="sidebar" class="nav-collapse ">
+                <!-- sidebar menu start-->
+                <ul class="sidebar-menu">
+                    <li>
+                        <asp:HyperLink ID="LinkInicio" runat="server" NavigateUrl="~/Biddings.aspx" Text=""><i class="icon_house_alt"></i><span>Inicio</span></asp:HyperLink>
+                        <%--<a class="" href="Inicio.aspx">
+                            <i class="icon_house_alt"></i>
+                            <span>Inicio</span>
+                        </a>--%>
+                    </li>
+                    <%--<ul class="sub">--%>
+                    <%--<li> <asp:HyperLink ID="LinkEmpresaCliente" runat="server" NavigateUrl="~/Cliente/SolicitarCotizacion.aspx" Text=""><i class="icon_clipboard"></i>Solicitar Cotizacion</asp:HyperLink></li>--%>
+                    <li>
+                        <asp:HyperLink ID="LinkRequiProveedores" runat="server" NavigateUrl="~/Biddings/Biddings.aspx" Text=""><i class="icon_documents"></i>Biddings</asp:HyperLink></li>
+                    <%--<li>
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Cliente/ProyectosClientes.aspx" Text=""><i class="icon_pencil_alt"></i>Proyectos</asp:HyperLink></li>
+                    <li>
+                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Cliente/ClientesContacto.aspx" Text=""><i class="icon_id"></i>Bench Marketing</asp:HyperLink></li>
+                    <li>
+                        <asp:HyperLink ID="LinkPaqueteCliente" runat="server" NavigateUrl="~/Cliente/PaquetesCotizaciones.aspx" Text=""><i class="icon_clipboard"></i>Paquete de cotizaciones</asp:HyperLink></li>--%>
+                    <%--</ul>--%>
+                </ul>
+                <!-- sidebar menu end-->
+            </div>
+        </aside>
+        <!--sidebar end-->
+    </section>
+    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <!-- container section start -->
+
+    <!-- javascripts -->
+
+    <script src="<%= ResolveUrl("~") %>js/jquery.js" type="text/javascript"></script>
+    <script src="<%= ResolveUrl("~") %>js/bootstrap.min.js" type="text/javascript"></script>
+    <!-- nice scroll -->
+    <script src="<%= ResolveUrl("~") %>js/jquery.scrollTo.min.js" type="text/javascript"></script>
+    <script src="<%= ResolveUrl("~") %>js/jquery.nicescroll.js" type="text/javascript"></script>
+    <!--custome script for all page-->
+    <script src="<%= ResolveUrl("~") %>js/scripts.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tableexport.jquery.plugin@1.10.21/tableExport.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tableexport.jquery.plugin@1.10.21/libs/jsPDF/jspdf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tableexport.jquery.plugin@1.10.21/libs/jsPDF-AutoTable/jspdf.plugin.autotable.js"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.19.1/dist/bootstrap-table.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.19.1/dist/extensions/export/bootstrap-table-export.min.js"></script>
+    <script src="<%= ResolveUrl("~") %>Plugins/moment/moment.min.js" type="text/javascript"></script>
+
+    <script src="<%= ResolveUrl("~") %>js/sweetalert2.all.js" type="text/javascript"></script>
+    <script src="<%= ResolveUrl("~") %>js/sweetalert2.min.js" type="text/javascript"></script>
+    <script src="<%= ResolveUrl("~") %>js/bootstrap-select.min.js" type="text/javascript"></script>
+    <script src="<%= ResolveUrl("~") %>js/bootstrap-select.js" type="text/javascript"></script>
+    <script src="<%= ResolveUrl("~") %>js/i18n/defaults-es_ES.js" type="text/javascript"></script>
+    <script src="<%= ResolveUrl("~") %>js/jquery.table2excel.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js" type="text/javascript"></script>
+    <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/b1e618822d.js" crossorigin="anonymous"></script>
+
+    <asp:ContentPlaceHolder ID="jsxpage" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>
